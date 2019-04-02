@@ -17,7 +17,8 @@ RSpec.describe 'Simple tests not related to Rails' do
     end
 
     context 'number が 0 の時' do
-      let(:number) { 59 }
+      it { expect(add_10(59)).to eq ??? }
+    end
 
       it { expect(add_10(number)).to eq 10 }
     end
